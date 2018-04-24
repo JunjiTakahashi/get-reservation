@@ -92,7 +92,6 @@ function GetFirstReservation(items) {
       //console.log('現在の予定');
     } else if (reservation == null && start > now) {
       reservation = value;
-      return false;
       //console.log('次の予定');
     }
     //TODO 予定が重なっている場合の考慮
